@@ -4,7 +4,7 @@ const you = 'Student';
 let numberOfCatsIOwn = 0;
 const buyCat = (numberOfCatsIOwn) => {
   numberOfCatsIOwn++;
-  console.log('I now own ' + numberOfCatsIOwn + ' cats!');
+  console.log(`I now own ${numberOfCatsIOwn} cats!`);
 }
  
 const favoriteBooks = [
@@ -30,5 +30,5 @@ const sumInput = (...arguments) => {
 }
 let sum = sumInput(1, 2, 3, 4, 5);
 
-const add = (x = 0, x = 0) => (x + x);
+const add = (x = 0, y = 0) => (x + y);
 sum = add(5, 5);
